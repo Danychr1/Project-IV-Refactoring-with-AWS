@@ -38,7 +38,7 @@ The project’s services are hosted across a mix of physical, virtual, and cloud
    
    e. Reduced Overhead: Eliminate the need for large operational teams.
 
-* AWS Services Overview
+# AWS Services Overview
  - Front-End Components
    * Elastic Beanstalk: Automates app deployment and scaling.
    * VM with Tomcat: Application server.
