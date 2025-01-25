@@ -25,7 +25,7 @@ The project’s services are hosted across a mix of physical, virtual, and cloud
  
    4 Automation Gaps: Difficulty in automating infrastructure and processes.
 
- * Proposed Solution
+ * Proposed Solution: 
 To address these issues, we leveraged AWS-managed PaaS (Platform as a Service) and SaaS (Software as a Service) solutions. Key benefits include:
 
    a. Infrastructure as Code (IaC): Automate infrastructure deployment.
