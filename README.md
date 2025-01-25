@@ -26,7 +26,7 @@ The project’s services are hosted across a mix of physical, virtual, and cloud
     4. Automation Gaps: Difficulty in automating infrastructure and processes.
 
  * Proposed Solution: 
-   - To address these issues, we leveraged AWS-managed PaaS (Platform as a Service) and SaaS (Software as a Service) solutions. Key benefits include:
+   - To address these issues, we'll leverage AWS-managed PaaS (Platform as a Service) and SaaS (Software as a Service) solutions. Key benefits include:
 
    a. Infrastructure as Code (IaC): Automate infrastructure deployment.
    
@@ -63,42 +63,41 @@ The project’s services are hosted across a mix of physical, virtual, and cloud
    
    # Execution Flow
  - Front-End
-    1 Login to AWS: Secure access to the AWS account.
+    1. Login to AWS: Secure access to the AWS account.
    
-    2 Key Pair: Generate key pairs for Beanstalk instance access.
+    2. Key Pair: Generate key pairs for Beanstalk instance access.
    
-    3 Security Groups: Configure security groups for RDS, Elastic Cache, and Active MQ.
+    3. Security Groups: Configure security groups for RDS, Elastic Cache, and Active MQ.
    
-    4 Service Deployment:
+    4. Service Deployment:
        * Create RDS, Elastic Cache, and Active MQ instances.
-   
-    5 Deploy an Elastic Beanstalk environment.
-   
-    6 Update security groups to allow traffic between backend and frontend services.
+       * Deploy an Elastic Beanstalk environment.
+       * Update security groups to allow traffic between backend and frontend services.
    
   - Back-End
-Database Initialization:
-Launch an EC2 instance.
-Log in and initialize the RDS database.
-Load Balancing:
-Update Beanstalk health checks.
-Add an HTTPS listener (port 443) to the Elastic Load Balancer (ELB).
-Content Distribution:
-Deploy CloudFront with SSL certificates.
-Update DNS entries in GoDaddy, Hostinger, or Route 53.
-Testing: Test the application URL to ensure everything works seamlessly.
-AWS Architecture Summary
-Compute: EC2 Instances, Elastic Beanstalk.
-Networking & CDN: ELB, Route 53, CloudFront.
-Storage: EFS, S3.
-Databases: RDS.
-Caching: Elastic Cache.
-Messaging: Active MQ.
-Outcome
+    1. Database Initialization:
+       * Launch an EC2 instance.
+       * Log in and initialize the RDS database.
+    2. Load Balancing:
+       * Update Beanstalk health checks.
+       * Add an HTTPS listener (port 443) to the Elastic Load Balancer (ELB).
+    3. Content Distribution:
+       * Deploy CloudFront with SSL certificates.
+       * Update DNS entries in GoDaddy, Hostinger, or Route 53.
+    4. Testing: Test the application URL to ensure everything works seamlessly.
+    
+# AWS Architecture Summary
+    Compute: EC2 Instances, Elastic Beanstalk.
+    Networking & CDN: ELB, Route 53, CloudFront.
+    Storage: EFS, S3.
+    Databases: RDS.
+    Caching: Elastic Cache.
+    Messaging: Active MQ.
+    
+* Outcome
 By refactoring the application with AWS services, we aim to achieve:
-
-Increased uptime and scalability.
-Reduced operational overhead and costs.
-Seamless automation and improved business agility.
+   - Increased uptime and scalability.
+   - Reduced operational overhead and costs.
+   - Seamless automation and improved business agility.
 Let’s build a more efficient, resilient, and future-ready infrastructure!
 
