@@ -17,13 +17,13 @@ The project’s services are hosted across a mix of physical, virtual, and cloud
 
 * Challenges:
   
- 1 Operational Overhead: Excessive manual intervention.
+   1 Operational Overhead: Excessive manual intervention.
   
- 2 Downtime and Scaling Issues: Limited uptime and scalability.
+   2 Downtime and Scaling Issues: Limited uptime and scalability.
  
- 3 Cost Constraints: High upfront capital expenses (CapEx) and ongoing operational expenses (OpEx).
+   3 Cost Constraints: High upfront capital expenses (CapEx) and ongoing operational expenses (OpEx).
  
- 4 Automation Gaps: Difficulty in automating infrastructure and processes.
+   4 Automation Gaps: Difficulty in automating infrastructure and processes.
 
  * Proposed Solution
 To address these issues, we leveraged AWS-managed PaaS (Platform as a Service) and SaaS (Software as a Service) solutions. Key benefits include:
