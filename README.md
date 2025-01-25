@@ -15,7 +15,8 @@ The project’s services are hosted across a mix of physical, virtual, and cloud
   - Monitoring Team
   - System Administrators
 
-* Challenges
+* Challenges:
+  
  1 Operational Overhead: Excessive manual intervention.
   
  2 Downtime and Scaling Issues: Limited uptime and scalability.
