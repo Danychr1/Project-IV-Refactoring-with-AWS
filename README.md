@@ -25,18 +25,19 @@ The project’s services are hosted across a mix of physical, virtual, and cloud
  
     4. Automation Gaps: Difficulty in automating infrastructure and processes.
 
- * Proposed Solution: 
-   - To address these issues, we'll leverage AWS-managed PaaS (Platform as a Service) and SaaS (Software as a Service) solutions. Key benefits include:
+ * Proposed Solution:
+    
+    * To address these issues, we'll leverage AWS-managed PaaS (Platform as a Service) and SaaS (Software as a Service) solutions. Key benefits include:
 
-     1. Infrastructure as Code (IaC): Automate infrastructure deployment.
+      1. Infrastructure as Code (IaC): Automate infrastructure deployment.
    
-     2. Flexibility: Pay-as-you-go pricing model.
+      2. Flexibility: Pay-as-you-go pricing model.
    
-     3. Streamlined Management: Simplify infrastructure administration.
+      3. Streamlined Management: Simplify infrastructure administration.
    
-     4. Scalability: Automate scaling of services.
+      4. Scalability: Automate scaling of services.
    
-     5. Reduced Overhead: Eliminate the need for large operational teams.
+      5. Reduced Overhead: Eliminate the need for large operational teams.
 
 # AWS Services Overview
  - Front-End Components
