@@ -14,3 +14,35 @@ The project’s services are hosted across a mix of physical, virtual, and cloud
   - Data Center (DC) Operations Team
   - Monitoring Team
   - System Administrators
+
+* Challenges
+ 1 Operational Overhead: Excessive manual intervention.
+  
+ 2 Downtime and Scaling Issues: Limited uptime and scalability.
+ 
+ 3 Cost Constraints: High upfront capital expenses (CapEx) and ongoing operational expenses (OpEx).
+ 
+ 4 Automation Gaps: Difficulty in automating infrastructure and processes.
+
+ * Proposed Solution
+To address these issues, we leveraged AWS-managed PaaS (Platform as a Service) and SaaS (Software as a Service) solutions. Key benefits include:
+
+  * Infrastructure as Code (IaC): Automate infrastructure deployment.
+  * Flexibility: Pay-as-you-go pricing model.
+  * Streamlined Management: Simplify infrastructure administration.
+  * Scalability: Automate scaling of services.
+  * Reduced Overhead: Eliminate the need for large operational teams.
+
+* AWS Services Overview
+ - Front-End Components
+   * Elastic Beanstalk: Automates app deployment and scaling.
+   * VM with Tomcat: Application server.
+   * NGINX: Load balancing.
+   * S3/EFS: Storage solutions for application data.
+ - Back-End Components
+   * RDS (Relational Database Service): Database management.
+   * Elastic Cache: In-memory caching with Memcached.
+   * Active MQ: Message brokering using RabbitMQ.
+   * Route 53: DNS management.
+   * CloudFront: Content delivery network (CDN) for fast content distribution.
+
