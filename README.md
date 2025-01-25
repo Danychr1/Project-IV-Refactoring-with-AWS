@@ -104,4 +104,4 @@ The project’s services are hosted across a mix of physical, virtual, and cloud
          
 Let’s build a more efficient, resilient, and future-ready infrastructure!
 
-Author 🧑‍💻: Dany Christel
+Author 👨🏽‍💻: Dany Christel
