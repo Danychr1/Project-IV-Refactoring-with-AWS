@@ -97,10 +97,11 @@ The project’s services are hosted across a mix of physical, virtual, and cloud
     
 * Outcome: 
 
-By refactoring the application with AWS services, we aim to achieve:
-   - Increased uptime and scalability.
-   - Reduced operational overhead and costs.
-   - Seamless automation and improved business agility.
+  - By refactoring the application with AWS services, we aim to achieve:
+       - Increased uptime and scalability.
+       - Reduced operational overhead and costs.
+       - Seamless automation and improved business agility.
+         
 Let’s build a more efficient, resilient, and future-ready infrastructure!
 
 Author 🧑‍💻: Dany Christel
