@@ -27,11 +27,15 @@ The project’s services are hosted across a mix of physical, virtual, and cloud
  * Proposed Solution
 To address these issues, we leveraged AWS-managed PaaS (Platform as a Service) and SaaS (Software as a Service) solutions. Key benefits include:
 
-  * Infrastructure as Code (IaC): Automate infrastructure deployment.
-  * Flexibility: Pay-as-you-go pricing model.
-  * Streamlined Management: Simplify infrastructure administration.
-  * Scalability: Automate scaling of services.
-  * Reduced Overhead: Eliminate the need for large operational teams.
+   a. Infrastructure as Code (IaC): Automate infrastructure deployment.
+   
+   b. Flexibility: Pay-as-you-go pricing model.
+   
+   c. Streamlined Management: Simplify infrastructure administration.
+   
+   d. Scalability: Automate scaling of services.
+   
+   e. Reduced Overhead: Eliminate the need for large operational teams.
 
 * AWS Services Overview
  - Front-End Components
@@ -45,4 +49,14 @@ To address these issues, we leveraged AWS-managed PaaS (Platform as a Service) a
    * Active MQ: Message brokering using RabbitMQ.
    * Route 53: DNS management.
    * CloudFront: Content delivery network (CDN) for fast content distribution.
+  
+  * Project Objectives
+    
+    1. Build Flexible Infrastructure: Adaptable and scalable.
+
+    2. Minimize Costs: No upfront costs; pay-as-you-go model.
+       
+    3. Leverage PaaS and SaaS: Simplify management and boost agility.
+   
+    4. Automate Processes: Use IaC to reduce manual intervention.
 
